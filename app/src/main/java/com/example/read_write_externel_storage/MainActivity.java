@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 StringBuilder  sb=new StringBuilder();
                 String Line;
                 while((Line=br.readLine())!=null){
-                    sb.append(Line).append("\n");
+                    sb.append(Line).append("");
                 }
                 binding.etText.setText(sb.toString());
                 br.close();
