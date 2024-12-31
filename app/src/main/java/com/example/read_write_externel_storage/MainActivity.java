@@ -4,7 +4,6 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.read_write_externel_storage.databinding.ActivityMainBinding;
 import com.google.android.material.snackbar.Snackbar;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
